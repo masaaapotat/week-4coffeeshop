@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap css-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <title>Nucamp: A Better Way To Camp</title>
+    <title>Caffe MASAA</title>
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" />
@@ -14,10 +14,30 @@
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.scss">
     
 </head>
 <body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href=""><img src="images/logocofee.jpg" height="30" width="30" alt=""></a><span class="navbar-text">CaffeeMasaa</span>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#coffeeNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="coffeeNavbar">
+
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link active" href="#"><i class="fas fa-home fa-lg"></i> Home</a></li>
+            <li><a class="nav-link" href=""> <i class="fas fa-info fa-lg"></i> About us</a></li>
+            <li><a class="nav-link" href="#"> <i class="fas fa-coffee fa-lg"></i> Coffee</a></li>
+            <li><a class="nav-link" href=""> <i class="fas fa-address-book fa-lg"></i>Contact</a></li>
+        </ul>
+        
+           
+        </div>
+    </div>
+</nav>
   
    <!-- Bootstrap JavaScript plugins -->
    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

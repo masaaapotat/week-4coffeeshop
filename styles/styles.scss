@@ -1,0 +1,104 @@
+$color-primary: #3046C5;
+$color-secondary: #5637dd;
+$color-pale: #CEC8FF;
+$color-mid: #901CAD;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+
+footer {
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: white;
+}
+.navbar {
+    background-color: $color-mid;
+}
+
+.carousel {
+    border: solid $color-secondary;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+#reserve-modal{
+    .modal-header-font{
+        background-color: $color-teal;
+        color: white;
+    }
+}
+#login-modal{
+    .modal.header{
+        background-color: $color-mid;
+        color: white;
+    }
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel {
+    border: solid #5637DD;
+}
+// @import 'review-section';
+// body{
+//     font-family: "Open  Sans", sans-serif;
+// }
+// h1, h2, h3{
+//     font-family: "Lobster", cursive;
+// }
+// h2{
+//     color: #3046c5;
+
+// }
+// header{
+//     padding: 30px;
+//     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+//     color: white;
+// }
+// header h2 {
+//     color: #cec8ff;
+// }
+// footer {
+//     background-image: linear-gradient(#CEC8FF, white);
+//     padding: 20px 0;
+
+// }
+// .row-content{
+//     padding: 50px 0;
+//     border-bottom: 1px, ridge;
+//     min-height: 200px ;
+
+// }
+// .navbar{
+//     background-color: #720d8b;
+// }
+// .accordion-button {
+//     background-color: #d3d3d3;
+//   }
